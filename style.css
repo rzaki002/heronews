@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1.title {
+  margin-bottom: 20px;
+  color: #444444;
+  font-family: 'Allura', cursive;
+  text-transform: uppercase;
+  font-size: 38px;
+  word-spacing: 25px;
+  letter-spacing: 5px;
+}
+
+.banner_content p {
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1b1a1a;
+}
+
+.btn a {
+  width: 180px;
+  height: 35px;
+  line-height: 35px;
+  border: 2px solid #cc0707;
+  color: #d0d30c;
+  display: block;
+  margin: 25px auto 0;
+  text-align: center;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #ffffff;
+}
+.btn:hover a {
+  background-color: #cc0707;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  border: none;
+}
+.home {
+  position: relative;
+}
+
+/* Navigation Bar */
+.navbar {
+  width: 100%;
+  height: 65px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo a {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 32px;
+  color: #ffffff;
+  -webkit-text-stroke: 3px rgb(128, 0, 0);
+}
+
+.navbar_items ul {
+  display: flex;
+}
+
+.navbar_items ul li {
+  margin: 0 10px;
+}
+
+.navbar_items ul li a {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* banner_image */
+.banner_image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Asset/bgpahlawan.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_content {
+  text-align: center;
+  color: #fff;
+}
+
+.banner_content h1 {
+  text-transform: uppercase;
+  line-height: 30px;
+  margin-bottom: 15px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.banner_content h1 span {
+  color: #f7fb22;
+  font-size: 19px;
+}
+
+/* About */
+.about,
+.services,
+.contactus,
+.more {
+  text-align: center;
+  padding: 5% 10%;
+}
+
+/* Services */
+.services {
+  background: #e2c4c4;
+}
+
+.diff_services {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.diff_services .diff_services_item {
+  width: 30%;
+}
+
+.diff_services .diff_services_item img {
+  width: 187px;
+  height: 269px;
+  margin-bottom: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+}
+
+.diff_services .diff_services_item h3 {
+  color: #fb2922;
+  margin-bottom: 15px;
+}
+
+/* Contact us */
+.form_wrapper .form_input {
+  margin-bottom: 15px;
+}
+
+.form_wrapper .form_input input[type='text'] {
+  width: 250px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+}
+
+.form_wrapper .form_input textarea {
+  width: 250px;
+  padding: 12px 20px;
+  height: 80px;
+  resize: none;
+  border: 1px solid #ccc;
+}
+
+#header #content {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  text-align: center;
+  background: #444444;
+  padding: 20px 0;
+}
+
+.footer a {
+  color: #fff;
+}
+
+/* TABEL NAMA KELOMPOK */
+.table1 tr th {
+  background: #cc271b;
+  color: #fff;
+  font-weight: normal;
+}
+
+.table1,
+th,
+td {
+  padding: 8px 20px;
+  text-align: center;
+}
+
+.table1 tr:hover {
+  background-color: #f5f5f5;
+}
+
+.table1 tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 720px) {
+  .navbar {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-bottom: 25px;
+  }
+
+  .navbar_items ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar_items ul li {
+    margin-bottom: 5px;
+  }
+
+  .banner_content {
+    margin-top: 35px;
+  }
+}

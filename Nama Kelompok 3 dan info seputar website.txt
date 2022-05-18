@@ -1,0 +1,17 @@
+Kelompok 3 
+Kelas 4IN
+...........................++++++++++++++++++++++++++++++++++++++++++++++++...............................................
+
+1. Rahmat Zaki	
+2. Tessa Arianvira
+3. Tsara Amani Putri
+4. Yunda Marsella
+
+
+
+
+
+*info tentang website yang dibuat ini:
+ Website ini berisikan tentang para tokoh pahlawan kemerdekaan Indonesia Beserta Biografi yang berbentuk tesk dan tabel
+ Selain itu disarankan untuk membuka webstie ini melalui live server pada vscode atau editor lainnya,jika backround gambar
+ dibebrapa fitur tidak muncul.
